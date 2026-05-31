@@ -33,7 +33,7 @@ pipeline {
         }
         stage('test-prd') {
             steps {
-                echo "Testing Sample Book App service on STG environment..."
+                echo "Testing Sample Book App service on PRD environment..."
             }
         }
     }
